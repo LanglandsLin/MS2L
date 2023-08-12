@@ -25,7 +25,7 @@ def my_config():
     person_num = 2
     joint_num = 25
     label_num = 60
-    max_frame = 60
+    max_frame = 300
     train_list = './data/NTU/xsub/train_data.npy'
     test_list = './data/NTU/xsub/val_data.npy'
     train_label = './data/NTU/xsub/train_label.pkl'

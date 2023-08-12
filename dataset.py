@@ -36,6 +36,10 @@ class DataSet(torch.utils.data.Dataset):
             self.sample_name, self.label = pickle.load(f)
 
         self.data = np.load(self.data_path)
+        
+        self.N, self.C, self.T, self.V, self.M = self.data.shape
+        self.data = np.transpose(self.data, (0, 2, 1, 3, 4))
+        self.data = self.data.reshape(self.N, self.T, 150)
 
         self.size, self.max_frame, self.feature_dim = self.data.shape
 
