@@ -4,7 +4,11 @@ MS2L: Multi-Task Self-Supervised Learning for Skeleton Based Action Recognition 
 [Lilang Lin](https://langlandslin.github.io/), [Sijie Song](https://sijiesong.github.io/), [Wenhan Yang](https://flyywh.github.io/), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html)
 
 [[Project Page]](https://langlandslin.github.io/projects/MSL/)|[[Paper]](https://arxiv.org/abs/2010.05599)
-     
+
+# Data Prepreprocessing Instructions
+
+Apply the dataset processing as [SkeletonContrast](https://github.com/fmthoker/skeleton-contrast).
+
 # Training & Testing
 
 Pretrain with Multi-Task Self-Supervised Learning (MS^2L):
